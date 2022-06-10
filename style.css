@@ -35,6 +35,19 @@ body {
     --font-micro: 10px;
 }
 
+
+/* ##################### HEADER ##################### */
+header{
+    position: absolute;
+    top: 100px; left: -60px;
+    transform: rotate(90deg);
+}
+header h1{
+    font-size: var(--font-large);
+    color: var(--blue-main-color);
+}
+
+
 /* ##################### NAV ##################### */
 /* btn */
 .menu_btn{
@@ -116,20 +129,95 @@ body {
 
 
 
-
-
-
-
 /* ##################### HOME ##################### */
 .home{
-    width: 100%; height: 100vh;
+    width: 100%; height: 1250px;
     background-image: url(/images/home.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    overflow: hidden;
 }
+.home_inner{
+    width: 100%; height: 100%;
+}
+.loading{
+    text-align: center;
+    transition: 2s;
+}
+
+.loading h3,
+.loading h2,
+.loading p{
+    opacity: 0;
+    
+}
+.loading h3{
+    font-size: 22px;
+    font-weight: 100;
+    animation: loading01 1s linear both;
+    position: absolute;
+    left: 50%; 
+    /* top: 35%; */
+    transform: translateX(-50%);
+}
+.loading h2{
+    font-size: var(--font-head);
+    position: absolute;
+    left: 50%; top: 38%; 
+    transform: translateX(-50%);
+    animation: loading02 1s 0.5s linear both;
+}
+.loading p{
+    font-size: var(--font-small);
+    font-weight: 100;
+    position: absolute;
+    left: 50%; top: 51%; 
+    transform: translateX(-50%);
+    animation: loading03 1s 1s linear both;
+}
+
+.loading.active{
+    opacity: 0;
+}
+
+
+@keyframes loading01{
+    0%{opacity: 0; top: 36%;}
+    100%{opacity: 1; top: 35%;}
+}
+@keyframes loading02{
+    0%{opacity: 0; top: 39%;}
+    100%{opacity: 1; top: 38%;}
+}
+@keyframes loading03{
+    0%{opacity: 0; top: 52%;}
+    100%{opacity: 1; top: 51%;}
+}
+
+/* intro */
+.intro{
+    position: absolute;
+    top: 95%; left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: 0.1s;
+}
+.intro.active{
+    top: 90%;
+    opacity: 1;
+}
+.intro p{
+    text-align: center;
+    font-size: var(--font-head-res);
+    font-weight: 100;
+}
+
 
 /* ##################### ABOUT ##################### */
 .about{
     width: 100%; height: 100vh;
     background-color: red;
+}
+.about.active{
+    background-color: #fff;
 }
