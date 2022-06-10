@@ -2,7 +2,9 @@ $(document).ready(function(){
 
     /* nav */
     $('.menu_btn').click(function(){
-        $(this).toggleClass('active')
-        $('.menu_btn span, .nav').toggleClass('active')
+        $('.menu_btn, .menu_btn span, .nav').toggleClass('active')
+    })
+    $('section').click(function(){
+        $('.menu_btn, .menu_btn span, .nav').removeClass('active')
     })
 })
