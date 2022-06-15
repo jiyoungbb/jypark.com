@@ -20,7 +20,7 @@ $(document).ready(function(){
 
       /* introduction */
       $(window).scroll(function(){
-        if($(window).scrollTop() > 410) {
+        if($(window).scrollTop() > 360) {
           $('.intro').addClass('active')
         }
         else {
