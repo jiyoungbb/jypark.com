@@ -218,10 +218,9 @@ header h1{
     padding: 20px 0;
 }
 .inner{
-    width: 1200px;
     background-color: #fff;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 150px;
 }
 .profile{}
 .profile img{
@@ -238,8 +237,32 @@ header h1{
     font-weight: 100;
 }
 
-.back{
-    width: 50px; height: 50px;
-    border-radius: 50%;
-    background-color: red;
+/* back pattern cloud */
+.about .inner{
+    width: inherit;
+    position: relative;
+}
+#cloud01, #cloud02{
+    position: absolute;
+    opacity: 0.5;
+}
+#cloud01{
+    top: 0; right: 200px;
+    width: 200px;
+    animation: cloud01 2s linear infinite;
+}
+#cloud02{
+    top: 100px; right: 150px;
+    animation: cloud02 2s linear infinite;
+}
+
+@keyframes cloud01{
+    0%{top: 0;}
+    50%{top: 5px;}
+    100%{top: 0;}
+}
+@keyframes cloud02{
+    0%{top: 105px;}
+    50%{top: 100px;}
+    100%{top: 105px;}
 }
