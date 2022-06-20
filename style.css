@@ -301,6 +301,9 @@ footer a{
     color: var(--black-color);
     font-weight: bold;
 }
+footer a:hover{
+    color: var(--grey-dark-color);
+}
 footer p{
     color: var(--grey-dark-color);
     font-weight: 100;
