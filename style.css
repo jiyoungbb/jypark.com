@@ -258,11 +258,34 @@ header h1{
 
 @keyframes cloud01{
     0%{top: 0;}
-    50%{top: 5px;}
+    50%{top: 3px;}
     100%{top: 0;}
 }
 @keyframes cloud02{
-    0%{top: 105px;}
+    0%{top: 103px;}
     50%{top: 100px;}
-    100%{top: 105px;}
+    100%{top: 103px;}
+}
+
+
+/* ##################### CONTACT ##################### */
+.contact .inner{
+    text-align: center;
+    height: 400px;
+    padding-top: 120px;
+}
+.contact .inner p{
+    font-weight: 100;
+}
+#email{
+    display: inline-block;
+    font-size: var(--font-head);
+    font-weight: normal;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+#email:hover{
+    font-size: 44px;
+    color: var(--blue-dark-color);
 }
