@@ -215,7 +215,7 @@ header h1{
 
 /* ##################### ABOUT ##################### */
 .about{
-    padding: 20px 0;
+    padding: 80px 0;
 }
 .inner{
     background-color: #fff;
@@ -267,6 +267,50 @@ header h1{
     100%{top: 103px;}
 }
 
+/* ##################### SKILL ##################### */
+.skill{
+    padding: 90px 0;
+    background-color: #f6f6f6d0;
+}
+.skill .inner{
+    display: flex;
+    background-color: inherit;
+}
+/* skill title */
+.skill_title{
+    width: 50%;
+    text-align: center;
+    padding-top: 140px;
+}
+.skill_title h3{
+    font-weight: 100;
+    font-size: var(--font-head-res);
+}
+.skill_title p{
+    font-size: var(--font-head-res);
+    color: var(--blue-dark-color);
+}
+
+/* skill content */
+.skill_content{
+    width: 50%;
+}
+.skill_content li{
+    list-style: circle;
+}
+.skill_content li h4{
+    margin-bottom: 0;
+    margin-top: 50px;
+    font-size: var(--font-large);
+}
+.skill_content li:first-child h4{
+    margin-top: 0;
+}
+.skill_content li p{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 100;
+}
 
 /* ##################### CONTACT ##################### */
 .contact .inner{
