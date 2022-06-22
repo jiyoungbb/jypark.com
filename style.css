@@ -312,6 +312,68 @@ header h1{
     font-weight: 100;
 }
 
+
+/* ##################### PR ##################### */
+.pr{
+    background-color: #f6f6f6d0;
+    padding: 110px 0;
+    margin-top: 100px;
+}
+.pr .inner{
+    background-color: inherit;
+}
+.pr .inner h2{
+    text-align: center;
+    font-size: var(--font-head);
+    font-weight: normal;
+    color: var(--grey-dark-color);
+    margin-top: 0;
+}
+
+.pr_cnt{
+    display: flex;
+    margin-top: 70px;
+}
+
+/* pr title */
+.pr_title{
+    width: 50%;
+    border-right: 1px solid var(--grey-dark-color);
+    text-align: left;
+    padding-top: 40px;
+}
+.pr_title p{
+    font-size: 22px;
+    margin-left: 280px;
+}
+
+/* pr content */
+.pr_content{
+    width: 50%;
+    padding-left: 60px;
+}
+.pr_content li{
+    list-style: circle;
+    font-size: var(--font-large);
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+.pr_content p{
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: var(--black-color);
+    font-size: var(--font-small);
+    border: 1px solid #909090;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.pr_content p:hover{
+    color: var(--white-color);
+    background-color: var(--blue-dark-color);
+    border: 1px solid var(--blue-dark-color);
+}
+
 /* ##################### CONTACT ##################### */
 .contact .inner{
     text-align: center;
