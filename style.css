@@ -317,7 +317,6 @@ header h1{
 .pr{
     background-color: #f6f6f6d0;
     padding: 110px 0;
-    margin-top: 100px;
 }
 .pr .inner{
     background-color: inherit;
@@ -358,7 +357,7 @@ header h1{
     margin-bottom: 20px;
     font-weight: 100;
 }
-.pr_content p{
+.pr_content a{
     display: inline-block;
     padding: 10px 15px;
     border-radius: 5px;
@@ -368,7 +367,7 @@ header h1{
     cursor: pointer;
     transition: 0.3s;
 }
-.pr_content p:hover{
+.pr_content a:hover{
     color: var(--white-color);
     background-color: var(--blue-dark-color);
     border: 1px solid var(--blue-dark-color);
