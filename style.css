@@ -313,6 +313,55 @@ header h1{
 }
 
 
+/* ##################### PROJECT ##################### */
+.project{}
+.projects{}
+.projects li{
+    width: 500px;
+    border-radius: 10px;
+    text-align: center;
+    background-image: url(./images/home.jpg);
+}
+.projects li:hover > .caption{
+    opacity: 1;
+}
+/* caption */
+.caption{
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    opacity: 0;
+    transition: 0.2s;
+    padding: 20px 0;
+}
+.project_title{
+    font-size: var(--font-large);
+    color: var(--blue-dark-color);
+}
+.tag{
+    display: inline-block;
+    border-radius: 20px;
+    padding: 3px 8px;
+    font-size: 14px;
+    background-color: var(--blue-dark-color);
+    color: var(--white-color);
+}
+.project_content{
+}
+.go_btn{
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: var(--grey-dark-color);
+    border: 1px solid var(--grey-light-color);
+    transition: 0.2s;
+}
+.go_btn:hover{
+    color: var(--white-color);
+    background-color: var(--blue-main-color);
+    border: 1px solid var(--blue-main-color);
+}
+
+
 /* ##################### PR ##################### */
 .pr{
     background-color: #f6f6f6d0;
