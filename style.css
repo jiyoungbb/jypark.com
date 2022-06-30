@@ -224,7 +224,7 @@ header h1{
 }
 .profile{}
 .profile img{
-    width: 250px; height: 250px;
+    width: 320px; height: 250px;
 }
 .profile h3{
     font-size: 24px;
@@ -317,7 +317,11 @@ header h1{
 .project{
     padding: 90px 0;
 }
-.project .inner{
+.project .inner h2{
+    text-align: center;
+    font-weight: 100;
+    font-size: 32px;
+    margin-bottom: 60px;
 }
 .projects{
     overflow: hidden;
@@ -328,8 +332,19 @@ header h1{
     border-radius: 10px;
     text-align: center;
     background-image: url(./images/home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     float: left;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
 }
+.projects li:nth-child(1){}
+.projects li:nth-child(2){}
+.projects li:nth-child(3){
+    background-image: url(./images/p_momentum.png);
+}
+.projects li:nth-child(4){}
+.projects li:nth-child(5){}
+
 .projects li:nth-child(odd){
     margin-right: 50px;
 }
@@ -338,7 +353,7 @@ header h1{
 }
 /* caption */
 .caption{
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.862);
     border-radius: 10px;
     opacity: 0;
     transition: 0.2s;
