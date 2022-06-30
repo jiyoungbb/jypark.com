@@ -314,13 +314,24 @@ header h1{
 
 
 /* ##################### PROJECT ##################### */
-.project{}
-.projects{}
+.project{
+    padding: 90px 0;
+}
+.project .inner{
+}
+.projects{
+    overflow: hidden;
+}
 .projects li{
     width: 500px;
+    margin: 20px 0;
     border-radius: 10px;
     text-align: center;
     background-image: url(./images/home.jpg);
+    float: left;
+}
+.projects li:nth-child(odd){
+    margin-right: 50px;
 }
 .projects li:hover > .caption{
     opacity: 1;
