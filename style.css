@@ -337,13 +337,21 @@ header h1{
     float: left;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
 }
-.projects li:nth-child(1){}
-.projects li:nth-child(2){}
+.projects li:nth-child(1){
+    background-image: url(./images/p_eatda.png);
+}
+.projects li:nth-child(2){
+    background-image: url(./images/p_woodin.png);
+}
 .projects li:nth-child(3){
     background-image: url(./images/p_momentum.png);
 }
-.projects li:nth-child(4){}
-.projects li:nth-child(5){}
+.projects li:nth-child(4){
+    background-image: url(./images/p_lotte.png);
+}
+.projects li:nth-child(5){
+    background-image: url(./images/p_jyp.png);
+}
 
 .projects li:nth-child(odd){
     margin-right: 50px;
