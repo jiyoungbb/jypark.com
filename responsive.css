@@ -1,0 +1,48 @@
+@media screen and (max-width:870px) {
+
+    
+    /* ##################### ABOUT ##################### */
+    #cloud01, #cloud02{
+        display: none;
+    }
+
+    /* ##################### SKILL ##################### */
+    .skill .inner{
+        display: block;
+    }
+    .skill_title{
+        width: 100%;
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+    .skill_content{
+        width: 100%;
+    }
+
+    /* ##################### PROJECT ##################### */
+    .projects{
+        overflow: initial;
+    }
+    .projects li{
+        float: none;
+        margin: 30px auto;
+    }
+    .projects li:nth-child(odd){
+        margin-right: auto;
+    }
+    .project .inner{
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    /* ##################### PR ##################### */
+    .pr_cnt{
+        display: block;
+    }
+    .pr_title{
+        display: none;
+    }
+    .pr_content{
+        width: 100%;
+    }
+}
