@@ -42,6 +42,9 @@
     .pr_title{
         display: none;
     }
+    .pr .inner h2{
+        font-size: 34px;
+    }
     .pr_content{
         width: 100%;
     }
