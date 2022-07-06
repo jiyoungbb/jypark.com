@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500&family=Open+Sans:wght@300;400;500&display=swap');
+
 /* Reset CSS */
 * { box-sizing: border-box; }
 ul { list-style: none; }
@@ -5,7 +7,7 @@ a { text-decoration: none; }
 
 /* Default CSS */
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   color: #222;
   font-size: 15px;
   margin: 0; padding: 0;
@@ -171,7 +173,7 @@ header h1{
     font-size: var(--font-small);
     font-weight: 100;
     position: absolute;
-    left: 50%; top: 51%; 
+    left: 50%; top: 53%; 
     transform: translateX(-50%);
     animation: loading03 1s 1s linear both;
 }
@@ -190,8 +192,8 @@ header h1{
     100%{opacity: 1; top: 38%;}
 }
 @keyframes loading03{
-    0%{opacity: 0; top: 52%;}
-    100%{opacity: 1; top: 51%;}
+    0%{opacity: 0; top: 54%;}
+    100%{opacity: 1; top: 53%;}
 }
 
 /* intro */
