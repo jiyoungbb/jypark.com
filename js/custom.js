@@ -37,12 +37,4 @@ $(document).ready(function(){
         }   
       })
 
-      /* email copy */
-      function copyClipBoard(){
-        var content = document.getElementById("email");
-
-        content.select();
-        document.execCommand("copy");
-        alert("copied!");
-      }
 })
