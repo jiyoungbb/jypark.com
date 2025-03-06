@@ -332,8 +332,8 @@ header h1{
     /* padding: 0 20px; */
 }
 .projects li{
-    /* width: 430px; */
-    /* height: 280px; */
+    /* width: 430px;
+    height: 289px; */
     height: 30%;
     width: 45%;
     margin: 20px 0;
@@ -341,24 +341,22 @@ header h1{
     text-align: center;
     background-image: url(./images/home.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    background-position: 50% 50%;
     float: left;
-    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
 }
 .projects li:nth-child(1){
-    background-image: url(./images/p_eatda.png);
+    background-image: url(./images/p_toss.png);
 }
 .projects li:nth-child(2){
-    background-image: url(./images/p_woodin.png);
+    background-image: url(./images/p_ing.png);
 }
 .projects li:nth-child(3){
-    background-image: url(./images/p_momentum.png);
+    background-image: url(./images/p_ing.png);
 }
 .projects li:nth-child(4){
-    background-image: url(./images/p_lotte.png);
-}
-.projects li:nth-child(5){
-    background-image: url(./images/p_jyp.png);
+    background-image: url(./images/p_ing.png);
 }
 
 .projects li:nth-child(odd){
@@ -371,7 +369,7 @@ header h1{
 .caption{
     background-color: rgba(255, 255, 255, 0.862);
     border-radius: 10px;
-    opacity: 0;
+    opacity: 50;
     transition: 0.2s;
     padding: 20px 0;
 }
