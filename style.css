@@ -350,7 +350,7 @@ header h1{
     background-image: url(./images/p_toss.png);
 }
 .projects li:nth-child(2){
-    background-image: url(./images/p_ing.png);
+    background-image: url(./images/p_ing.jpg);
 }
 .projects li:nth-child(3){
     background-image: url(./images/p_ing.png);
@@ -367,9 +367,11 @@ header h1{
 }
 /* caption */
 .caption{
+    /* width: 430px;
+    height: 289px; */
     background-color: rgba(255, 255, 255, 0.862);
     border-radius: 10px;
-    opacity: 50;
+    opacity: 1;
     transition: 0.2s;
     padding: 20px 0;
 }
