@@ -490,6 +490,7 @@ header h1{
 }
 .pr_content a{
     display: inline-block;
+    margin: 0 6px;
     padding: 10px 15px;
     border-radius: 5px;
     color: var(--black-color);
