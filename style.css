@@ -365,6 +365,8 @@ header h1{
 .projects li:hover > .caption{
     opacity: 1;
 }
+
+
 /* caption */
 .caption{
     /* width: 430px;
@@ -402,6 +404,44 @@ header h1{
     background-color: var(--blue-main-color);
     border: 1px solid var(--blue-main-color);
 }
+
+/* ##################### STUDY ##################### */
+.study{
+    overflow: hidden;
+    /* width: 1100px; */
+    /* width: 87%; */
+    margin: 0 auto;
+    /* padding: 0 20px; */
+}
+.study li{
+    /* width: 430px;
+    height: 289px; */
+    height: 30%;
+    width: 45%;
+    margin: 20px 0;
+    border-radius: 10px;
+    text-align: center;
+    background-image: url(./images/home.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+    float: left;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
+}
+.study li:nth-child(1){
+    background-image: url(./images/p_postman.png);
+}
+.study li:nth-child(2){
+    background-image: url(./images/p_ing.jpg);
+}
+
+.study li:nth-child(odd){
+    margin-right: 50px;
+}
+.study li:hover > .caption{
+    opacity: 1;
+}
+
 
 
 /* ##################### PR ##################### */
