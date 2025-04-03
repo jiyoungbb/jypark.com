@@ -347,10 +347,10 @@ header h1{
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
 }
 .projects li:nth-child(1){
-    background-image: url(./images/p_toss.png);
+    background-image: url(./images/p_kream.png);
 }
 .projects li:nth-child(2){
-    background-image: url(./images/p_ing.jpg);
+    background-image: url(./images/p_toss.png);
 }
 .projects li:nth-child(3){
     background-image: url(./images/p_ing.png);
